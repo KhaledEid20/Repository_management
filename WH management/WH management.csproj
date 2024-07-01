@@ -47,6 +47,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes\AdoClass.cs" />
+    <Compile Include="Forms\Addition Permit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Addition Permit.Designer.cs">
+      <DependentUpon>Addition Permit.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\mainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -55,6 +61,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\Addition Permit.resx">
+      <DependentUpon>Addition Permit.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\mainForm.resx">
       <DependentUpon>mainForm.cs</DependentUpon>
     </EmbeddedResource>
